@@ -1,3 +1,8 @@
+Write a program in java using constructor overloading concept to calculate the area of a rectangle having data member as length and breadth.
+Use default constructor to initialize the value of the data member to zero and parameterized constructor
+to initialize the value of data member according to the user input. 
+
+
 import java.util.Scanner;
 
 class Rect {
@@ -25,7 +30,7 @@ class Rect {
 public class RectArea{
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
+        Scanner s = new Scanner(System.in);
 
         // Using default constructor
         Rect r1 = new Rect();
@@ -34,15 +39,14 @@ public class RectArea{
 
         // Using parameterized constructor
         System.out.print("Enter length: ");
-        double l = sc.nextDouble();
+        double l = s.nextDouble();
         System.out.print("Enter breadth: ");
-        double b = sc.nextDouble();
+        double b = s.nextDouble();
 
         Rect r2 = new Rect(l, b);
         System.out.println("Using Parameterized Constructor:");
         r2.calculateArea();
 
-        sc.close();
     }
 }
 
