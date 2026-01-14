@@ -1,4 +1,5 @@
-/* Write a Java program to create a class called "Employee" with a name, salary, and hire date attributes, and a method to calculate years of service. */
+/* Write a Java program to create a class called "Employee" with a name, salary, and hire date attributes,
+and a method to calculate years of service. */
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
