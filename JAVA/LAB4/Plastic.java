@@ -5,8 +5,8 @@
 import java.util.Scanner;
 
 class Sheet {
-	double length;
-	double width;
+	protected double length;
+	protected double width;
 	static final double RATE = 40.0; // Rs per sq ft
 
 	public Sheet(double length, double width) {
