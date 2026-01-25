@@ -2,6 +2,7 @@
 // box(length, width, height), woodbox (length, width, height, thick) where box inherits from plate and woodbox inherits from box class.
 // Each class has constructor where dimensions are taken from user
 
+
 import java.util.Scanner;
 
 class Plate {
@@ -22,7 +23,7 @@ class Plate {
 }
 
 class Box extends Plate {
-    protected double height;
+    private double height;
 
     Box(double length, double width, double height) {
         super(length, width); // calls Plate constructor
@@ -38,7 +39,7 @@ class Box extends Plate {
 }
 
 class WoodBox extends Box {
-    double thick;
+    private double thick;
 
     WoodBox(double length, double width, double height, double thick) {
         super(length, width, height); // calls Box constructor

@@ -24,7 +24,7 @@ class Sheet {
 }
 
 class Box extends Sheet {
-	double height;
+	private double height;
 	static final double RATE_BOX = 60.0; // Rs per cu ft
 
 	public Box(double length, double width, double height) {

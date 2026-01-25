@@ -1,29 +1,30 @@
-import java.util.Scanner;
+// Accept 10 numbers from command line and check how many of them are even and how many are odd.
 
-public class EvenOdd {
-    public static void main(String[] args) 
-    {
-        
-        int number;
+class EvenOdd {
+    public static void main(String[] args) {
+
         int evenCount = 0;
         int oddCount = 0;
 
-        Scanner s = new Scanner(System.in);
+        // Check if 10 numbers are provided
+        if (args.length != 10) {
+            System.out.println("Please enter exactly 10 numbers.");
+            return;
+        }
 
-        System.out.print("Enter 10 numbers:");
-        
-        for (int i = 1; i <= 10; i++) 
-        {
-            
-            number = s.nextInt();
-            if (number % 2 == 0) 
+        // Loop through command line arguments
+        for (int i = 0; i < args.length; i++) {
+            int num = Integer.parseInt(args[i]);
+
+            if (num % 2 == 0) {
                 evenCount++;
-            else 
+            } else {
                 oddCount++;
+            }
         }
 
         System.out.println("Even numbers count: " + evenCount);
         System.out.println("Odd numbers count: " + oddCount);
     }
-    
 }
+
