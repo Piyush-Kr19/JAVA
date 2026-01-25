@@ -12,5 +12,22 @@ interface Motor{
 
 class WashingMachine implements Motor{
     
-    @O
+    @Override
+    public void run(){
+        System.out.println("Washing Machine is running");
+    }
+
+    @Override
+    public void consume(){
+        System.out.println("Washing Machine is consuming power");
+    }
+}
+
+public class Demo {
+    public static void main(String[] args) {
+        Motor m = new WashingMachine();
+        m.run();
+        m.consume();
+        System.out.println("Motor capacity: " + Motor.capacity);
+    }
 }
