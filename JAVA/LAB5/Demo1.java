@@ -3,7 +3,7 @@
 a method getinput and an abstract method course
 ~A subclass ‘kiitian’ with course method implementation.
 
-	Write the driver class to print the all details of a kiitian object.*/
+Write the driver class to print the all details of a kiitian object.*/
 
 
 import java.util.Scanner;
