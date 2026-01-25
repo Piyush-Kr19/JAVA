@@ -19,10 +19,10 @@ public class Largest {
 
         int max = arr[0];
         
-        for (int i = 1; i < 3; i++) 
+        for (int i = 1; i < 3; i++)  
         {
             if (arr[i] > max) 
-            {
+            { 
                 max = arr[i];
             }
         }

@@ -1,7 +1,7 @@
 // Accept 10 numbers from command line and check how many of them are even and how many are odd.
 
 class EvenOdd {
-    public static void main(String[] args) {
+    public static void main(String[] args) { 
 
         int evenCount = 0;
         int oddCount = 0;
@@ -24,7 +24,7 @@ class EvenOdd {
         }
 
         System.out.println("Even numbers count: " + evenCount);
-        System.out.println("Odd numbers count: " + oddCount);
+        System.out.println("Odd numbers count: " + oddCount); // 
     }
 }
 
