@@ -19,7 +19,7 @@ abstract class Manager implements Company{
 
     protected double basic;
 
-    Manager (double basic){
+    public Manager(double basic){
         this.basic = basic;
     }
 
@@ -41,7 +41,7 @@ abstract class Manager implements Company{
 class SubStaff extends Manager{
 
 
-    SubStaff(double basic){
+    public SubStaff(double basic){
         super(basic);
     }
     @Override

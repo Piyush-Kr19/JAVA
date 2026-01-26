@@ -1,7 +1,7 @@
-
-import java.util.Scanner;
+package General;
 
 public class employee {
+
     protected int empid;
     private String ename;
     protected double basic;
@@ -22,4 +22,5 @@ public class employee {
         System.out.println("Employee Name: " + ename);
     }
 }
+
 

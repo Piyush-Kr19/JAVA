@@ -8,16 +8,12 @@ public class sales extends employee {
         super(empid, ename, basic);
     }
 
+    // Travelling Allowance = 5% of total earnings
     public double tallowance() {
         return 0.05 * earnings();
     }
 
-    public void display() {
-        double totalEarnings = earnings() + tallowance();
-
-        System.out.println("Employee ID: " + empid);
-        displayName();
-        System.out.println("Total Earnings (including TA): " + totalEarnings);
+    public double totalEarning() {
+        return earnings() + tallowance();
     }
 }
-
