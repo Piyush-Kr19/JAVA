@@ -39,7 +39,7 @@ class Head implements Manager{
         s.nextLine();
         System.out.print("Enter the department name: ");
         Deptname = s.nextLine();
-    }    
+    }     
 
     public void display(){
         System.out.println("\n--- Head of Department Details ---");

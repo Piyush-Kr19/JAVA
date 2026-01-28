@@ -29,7 +29,7 @@ abstract class Manager implements Company{
         double hra = 0.15 * basic;
         double totalEarning = basic + da + hra;
         System.out.println("Earning: " + totalEarning);
-    }
+    } 
 
     @Override
     public void deductions(){

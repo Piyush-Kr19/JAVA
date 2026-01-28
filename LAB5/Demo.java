@@ -3,7 +3,7 @@ Define a Java class ‘Washing machine’ which implements this interface and wr
 check the value of the interface data member thru an object of the class.*/
 
 
-interface Motor{
+interface Motor{ 
     int capacity = 10;
 
     void run ();

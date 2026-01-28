@@ -8,7 +8,7 @@ Write the driver class to print the all details of a kiitian object.*/
 
 import java.util.Scanner;
 
-abstract class Student{
+abstract class Student{ 
     int rollno;
     int regNo;
     String course;
