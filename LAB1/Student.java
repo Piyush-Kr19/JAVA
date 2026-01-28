@@ -7,7 +7,7 @@ public class Student {
         String section;
         String branch;
 
-        Scanner s = new Scanner(System.in);
+        Scanner s = new Scanner(System.in); 
 
         System.out.print("Enter name ,rollno, section and branch: ");
         name = s.next();

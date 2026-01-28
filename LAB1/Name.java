@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Name {
     public static void main(String[] args) {
         String fname;
-        String lname;
+        String lname; 
         // int age;
 
         Scanner s = new Scanner(System.in);

@@ -6,7 +6,7 @@ public class Palindrome
     {
         int n;
         int r,sum = 0,temp;
-        Scanner s = new Scanner(System.in);
+        Scanner s = new Scanner(System.in); 
         
         System.out.print("Enter a number :");
         n = s.nextInt();

@@ -4,7 +4,7 @@ public class Grade {
      public static void main(String[] args)
      {
         int mark;
-        String grade;
+        String grade; 
 
         Scanner s = new Scanner(System.in);
 

@@ -6,7 +6,7 @@ public class WeekDay
     {
         int weekNo;
 
-        Scanner s = new Scanner(System.in);
+        Scanner s = new Scanner(System.in); 
 
         System.out.print("Enter the week number (1-7):");
         weekNo = s.nextInt();

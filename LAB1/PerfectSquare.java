@@ -7,7 +7,7 @@ public class PerfectSquare {
         Scanner s = new Scanner(System.in);
 
         System.out.print("Enter a number:");
-        num = s.nextInt();
+        num = s.nextInt(); 
 
         if (num >= 0) {
             int root = (int) Math.sqrt(num);
