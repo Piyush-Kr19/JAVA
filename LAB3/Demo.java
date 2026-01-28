@@ -5,7 +5,7 @@ the box class is created with user entered dimensions and volume is printed.*/
 import java.util.Scanner;
 
 // Box class
-class Box {
+class Box { 
     double length, width, height;
 
     // Method to calculate volume

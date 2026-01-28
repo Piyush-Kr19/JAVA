@@ -7,7 +7,7 @@ import java.util.Scanner;
 // Rectangle class
 class Rectangle {
     float length, breadth;
-    float area, perimeter;
+    float area, perimeter; 
 
     // Method to read values
     void read() {

@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 // Student class
 class Student {
-    int roll;
+    int roll; 
     String name;
     float cgpa;
 

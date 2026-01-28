@@ -3,7 +3,7 @@ class Subtract {
     // Subtract two integers
     void subtract(int a, int b) {
         System.out.println("Subtraction of two integers: " + (a - b));
-    }
+    } 
 
     // Subtract three integers
     void subtract(int a, int b, int c) {

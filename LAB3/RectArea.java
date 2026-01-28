@@ -5,7 +5,7 @@
 
 import java.util.Scanner;
 
-class Rect {
+class Rect { 
     double length;
     double breadth;
 
