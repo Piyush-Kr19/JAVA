@@ -3,7 +3,7 @@
 class EvenOdd {
     public static void main(String[] args) { 
 
-        int evenCount = 0;
+        int evenCount = 0;  
         int oddCount = 0;
 
         // Check if 10 numbers are provided

@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Repeat {
     public static void main(String[] args) 
     {
-        Scanner s = new Scanner(System.in);
+        Scanner s = new Scanner(System.in); 
 
         System.out.print("Enter how many numbers you want to input: ");
         int n = s.nextInt();

@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class DiagonalSum {
+public class DiagonalSum { 
     public static void main(String[] args)
     {
         int matrix[][] = new int[3][3];

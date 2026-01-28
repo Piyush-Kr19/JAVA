@@ -7,7 +7,7 @@ public class Largest {
 
         int arr[];
 
-        arr = new int[3];
+        arr = new int[3]; 
         Scanner s = new Scanner(System.in);
 
         System.out.println("Enter 3 numbers:");

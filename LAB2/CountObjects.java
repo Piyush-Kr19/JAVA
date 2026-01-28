@@ -2,7 +2,7 @@
 Program to find no. of objects created out of a class using ‘static’ modifier.
 */
 public class CountObjects
-{
+{ 
    //variable to keep track of objects
    private static int count;  
 
