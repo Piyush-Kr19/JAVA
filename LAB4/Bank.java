@@ -5,7 +5,7 @@ Write the complete program to take and print details of three persons*/
 import java.util.Scanner;
 
 class Account {
-    protected int accNo;
+    protected int accNo; 
     protected double balance;
 
     public void input(Scanner s) {

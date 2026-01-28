@@ -16,7 +16,7 @@ class Banana extends Apple {
     void show() {
         System.out.println("This is Banana class show() method");
     }
-}
+} 
 
 // Subclass 2
 class Cherry extends Apple {

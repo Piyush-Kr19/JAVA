@@ -36,7 +36,7 @@ class Box extends Plate {
         super.display();
         System.out.println("Box height = " + height);
     }
-}
+} 
 
 class WoodBox extends Box {
     private double thick;
