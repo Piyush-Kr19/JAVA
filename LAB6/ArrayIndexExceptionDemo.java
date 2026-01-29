@@ -22,6 +22,7 @@ public class ArrayIndexExceptionDemo {
         System.out.print("Enter index to access: ");
         int index = s.nextInt();
 
+        //! Exception Checking
         try {
             // Trying to access an index that does not exist
             System.out.println("Element at index " + index + " is: " + arr[index]);
